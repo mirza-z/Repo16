@@ -1,2 +1,2 @@
-const name = require('../src/nameFunctions');
-console.log(name.firstName("John") + " " + name.lastName("Doe"));
+const person = require('../src/nameFunctions');
+console.log(person.firstName("John") + " " + person.lastName("Doe"));
